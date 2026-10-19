@@ -4,7 +4,7 @@ LobeHub 用户请使用 [LobeHub setup / 接入说明](LOBEHUB.md)，包含专�
 
 Hosted MCP for checking text for potential platform review risks and querying SocialDataX points balance. A result is a screening aid, not a guarantee of platform acceptance.
 
-- Website and API Key access: https://socialdatax.com/ai
+- Website and API Key access: https://socialdatax.com/ai?from=github
 - Endpoint: https://mcp.socialdatax.com/sensitive-check/mcp
 - Transport: Streamable HTTP
 - Authentication: Authorization: Bearer <SOCIALDATAX_API_KEY>
