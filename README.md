@@ -26,3 +26,19 @@ The text provided to the tool is transmitted to the hosted service. Avoid includ
 ```
 
 This repository contains public connection documentation and metadata only; the service implementation is privately hosted.
+
+## Gemini CLI extension
+
+Install this service from its public GitHub repository:
+
+```sh
+gemini extensions install https://github.com/DevinChen2014/socialdatax-sensitive-check-mcp
+```
+
+When prompted, enter your own `SOCIALDATAX_API_KEY`. Get a key from [SocialDataX](https://socialdatax.com/ai?from=github); business tool calls consume SocialDataX credits. The extension connects directly to the existing hosted MCP endpoint and does not include the private service implementation.
+
+Verify the connection with `gemini mcp list`. To change the saved key, run:
+
+```sh
+gemini extensions config socialdatax-sensitive-check
+```
